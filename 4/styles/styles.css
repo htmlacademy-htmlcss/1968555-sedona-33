@@ -49,7 +49,7 @@ body {
 .main-index {
     color: #ffffff;
     background-color: #000000;
-    background-image: url("images/background/background-welcome.jpg");
+    background-image: url("images/background-welcome.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -142,7 +142,7 @@ body {
     text-align: center;
     color: #ffffff;
     background-color: #000000;
-    background-image: url("images/background/background-subscribe.jpg");
+    background-image: url("images/background-subscribe.jpg");
 }
 
 .subscribe-title {
