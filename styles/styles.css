@@ -46,15 +46,15 @@ body {
 }
 
 .main-index {
+    text-align: center;
+}
+
+.block-welcome-sedona {
     color: #000000;
     background-color: #ffffff;
     background-image: url("images/background-welcome.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-}
-
-.block-welcome-description {
-    text-align: center;
 }
 
 .welcome-title {
@@ -72,7 +72,6 @@ body {
 }
 
 .advantages-list {
-    text-align: center;
     color: #ffffff;
     background-color: #83B3D3;;
 }
@@ -91,7 +90,6 @@ body {
 }
 
 .advantages-minor-list {
-    text-align: center;
     color: #333333;
 }
 
@@ -141,6 +139,8 @@ body {
     color: #000000;
     background-color: #ffffff;
     background-image: url("images/background-subscribe.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .subscribe-title {
@@ -165,7 +165,6 @@ body {
 }
 
 .footer-contacts {
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
