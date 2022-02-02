@@ -106,6 +106,15 @@ body {
     line-height: 21px;
 }
 
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url("../images/background-catalog.jpg");
+}
+
 .search {
     text-align: center;
 }
