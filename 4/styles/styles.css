@@ -42,13 +42,12 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #756257;
-    border-radius: 4px;
     text-decoration: none;
 }
 
 .main-index {
-    color: #ffffff;
-    background-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
     background-image: url("images/background-welcome.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -134,14 +133,13 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background: #756257;
-    border-radius: 10px;
     text-decoration: none;
 }
 
 .subscribe-main {
     text-align: center;
-    color: #ffffff;
-    background-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
     background-image: url("images/background-subscribe.jpg");
 }
 
