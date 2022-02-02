@@ -30,7 +30,6 @@ body {
 .navigation-link {
     font-size: 20px;
     line-height: 26px;
-    font-style: normal;
     font-weight: 700;
     text-align: center;
     color: inherit;
@@ -41,11 +40,15 @@ body {
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
+    color: #ffffff;
+    background-color: #756257;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 .main-index {
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
     background-image: url("images/background/background-welcome.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -56,7 +59,6 @@ body {
 }
 
 .welcome-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -65,7 +67,6 @@ body {
 
 .welcome-description {
     color: #333333;
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
@@ -73,16 +74,18 @@ body {
 
 .advantages-list {
     text-align: center;
+    color: #ffffff;
+    background-color: #83B3D3;;
+}
+
+.advantages-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #ffffff;
-    background-color: #83B3D3;;
     text-transform: uppercase;
 }
 
 .advantages-description {
-    font-weight: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -90,4 +93,84 @@ body {
 
 .advantages-minor-list {
     text-align: center;
+    color: #333333;
+}
+
+.minor-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.minor-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.search-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.button-search {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #756257;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.subscribe-main {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url("images/background/background-subscribe.jpg");
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.subscribe-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: #83B3D3;
+}
+
+.footer-contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
