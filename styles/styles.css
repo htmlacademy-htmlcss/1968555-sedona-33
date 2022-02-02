@@ -124,8 +124,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    text-decoration: none;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .catalog-products {
@@ -224,6 +224,10 @@ body {
 }
 
 .pagination {
+    background-color: #ffffff;
+}
+
+.pagination-link {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
