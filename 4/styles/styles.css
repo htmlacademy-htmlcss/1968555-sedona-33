@@ -133,6 +133,9 @@ body {
     text-decoration: none;
 }
 
+.crumbs-link {
+    text-decoration: none;
+}
 .catalog-products {
     font-weight: 400;
     font-size: 18px;
@@ -338,4 +341,8 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.footer-social-link {
+    text-decoration: none;
 }
