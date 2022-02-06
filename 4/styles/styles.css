@@ -170,7 +170,7 @@ body {
     text-transform: uppercase;
 }
 
-.product-card-title {
+.product-card-link {
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
@@ -219,7 +219,7 @@ body {
 }
 
 .download-more-button {
-    background-color: #83B3D3;
+    text-decoration: none;
 }
 .download-more-title {
     font-weight: bold;
@@ -227,6 +227,7 @@ body {
     line-height: 26px;
     text-align: center;
     color: #ffffff;
+    background-color: #83B3D3;
     text-transform: uppercase;
     text-decoration: none;
 }
