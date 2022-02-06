@@ -218,6 +218,10 @@ body {
     text-decoration: none;
 }
 
+.download-more {
+    text-align: center;
+}
+
 .download-more-button {
     font-weight: bold;
     font-size: 20px;
