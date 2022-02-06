@@ -134,6 +134,7 @@ body {
 }
 
 .crumbs-link {
+    color: #ffffff;
     text-decoration: none;
 }
 .catalog-products {
@@ -344,5 +345,6 @@ body {
 }
 
 .footer-social-link {
+    color: #83B3D3;
     text-decoration: none;
 }
