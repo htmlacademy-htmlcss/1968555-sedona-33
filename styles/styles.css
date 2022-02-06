@@ -120,6 +120,11 @@ body {
     line-height: 78px;
 }
 
+.button-light {
+    text-decoration: none;
+    color: #000000;
+}
+
 .crumbs {
     font-weight: 400;
     font-size: 16px;
@@ -202,20 +207,22 @@ body {
     text-decoration: none;
 }
 
-.product-card-title-selected {
+.product-card-button-selected {
     color: #ffffff;
     background-color: #7DB54F;
     text-decoration: none;
 }
 
 .download-more-button {
+    background-color: #83B3D3;
+}
+.download-more-title {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    text-transform: uppercase;
     color: #ffffff;
-    background-color: #83B3D3;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
