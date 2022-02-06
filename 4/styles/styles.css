@@ -209,7 +209,9 @@ body {
 }
 
 .product-card-title-selected {
+    color: #ffffff;
     background-color: #7DB54F;
+    text-decoration: none;
 }
 
 .download-more {
@@ -241,6 +243,7 @@ body {
 .pagination-link-selected {
     color: #000000;
     background-color: #F2F2F2;
+    text-decoration: none;
 }
 
 .result-search-numbers {
@@ -327,9 +330,4 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.footer-social {
-    color: #83B3D3;
-    text-decoration: none;
 }
