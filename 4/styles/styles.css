@@ -160,15 +160,9 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 39px;
+    background-color: #ffffff;
     color: #000000;
     text-transform: uppercase;
-}
-
-.select-control {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: #333333;
 }
 
 .product-card-title {
@@ -214,7 +208,7 @@ body {
     text-decoration: none;
 }
 
-.download-more {
+.download-more-button {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
@@ -257,6 +251,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
+    background-color: #ffffff;
     color: #333333;
 }
 
