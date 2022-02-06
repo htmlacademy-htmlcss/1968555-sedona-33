@@ -219,9 +219,6 @@ body {
 }
 
 .download-more-button {
-    text-decoration: none;
-}
-.download-more-title {
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
