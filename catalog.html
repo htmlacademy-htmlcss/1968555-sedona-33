@@ -34,7 +34,7 @@
                 </a>
               </li>
               <li class="navigation-item">
-                <a class="button button-all" href="#">Хочу сюда!</a>
+                <a class="button-here" href="#">Хочу сюда!</a>
               </li>
             </ul>
           </nav>
@@ -101,9 +101,10 @@
                             </li>
                         </ul>
                     </fieldset>
-                     <button class="button button-submit" type="submit">Применить</button>
-                     <button class="button button-reset" type="reset">Сбросить</button>
+                     <button class="button-submit" type="submit">Применить</button>
+                     <button class="button-reset" type="reset">Сбросить</button>
                  </form>
+                </header>
                  <div class="result-search">
                      <h2 class="result-search-item">Найдено гостиниц: 38</h2>
                  </div>
@@ -112,25 +113,26 @@
                      <option value="cheap">Сначала дорогие</option>
                      <option value="cheap">Сначала популярные</option>
                  </select>
-                 <a href="#" class="button button-light">
+                 <a href="#" class="button-light">
                      <span class="visually-hidden">Показать плиткой</span>
                  </a>
-                 <a class="button button-light" href="#" >
+                 <a class="button-light" href="#" >
                     <span class="visually-hidden">Показать слайд-шоу</span>
                 </a>
-                <a class="button button-light" href="#" >
+                <a class="button-light" href="#" >
                     <span class="visually-hidden">Показать списком</span>
                 </a>
-
+              </section>
+            <section class="product-list-title">
                 <ul class="product-list">
                     <li class="product-card">
                     <a class="product-card-link" href="#">
                             <img class="product-card-image" src="images/gallery/hotel-1.jpg" alt="Amara Resot & Spa." width="299" height="206">
                             <h3 class="product-card-title">Amara Resot & Spa</h3>
                     </a>
-                        <p>Гостиница От 4000 ₽</p>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <p class="product-price">Гостиница От 4000 ₽</p>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button" href="#">В Избранное</a>
                     </li>
                     <li class="product-card">
                         <a class="product-card-link" href="#">
@@ -138,8 +140,8 @@
                             <h3 class="product-card-title">Desert Quail Inn</h3>
                         </a>
                         <p>Гостиница От 3000 ₽</p>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button" href="#">В Избранное</a>
                     </li>
                     <li class="product-card">
                         <a class="product-card-link" href="#">
@@ -147,8 +149,8 @@
                             <h3 class="product-card-title">Villas at Poco Diablo</h3>
                         </a>
                         <p>Гостиница От 2000 ₽</p>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button-selected" href="#">В Избранное</a>
                     </li>
                     <li class="product-card">
                         <a class="product-card-link" href="#">
@@ -156,22 +158,19 @@
                             <h3 class="product-card-title">GreenThree Inn</h3>
                         </a>
                         <p>Гостиница От 3000 ₽</p>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button" href="#">В Избранное</a>
                     </li>
                 </ul>
                 <section class="download-more">
-                 <a class="download-more-button" href="#">
-                     <h2 class="download-more-title">Загрузить ещё</h2>
-                 </a>
+                 <a class="download-more-button" href="#">Загрузить ещё</a>
                 </section>
               </section>
-         </header>
    </main>
                 <nav class="page-navigation">
                      <ul class="pagination">
                         <li class="pagination-item">
-                            <a class="pagination-link" href="#">1</a>
+                            <a class="pagination-link-selected" href="#">1</a>
                          </li> 
                         <li class="pagination-item">
                             <a class="pagination-link" href="#">2</a>
@@ -202,17 +201,17 @@
              
        <section class="search">
            <h2 class="search-title">Заинтересовались?</h2>
-            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a class="button-search" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+            <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <a class="button-search" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
        </section>
 
    <section class="subscribe-catalog">
      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-     <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+     <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
      <form class="subscribe-form" action="#" method="post">
       <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
-       <button class="button subscribe-button" type="submit">
-         <span class="button subscribe-button">Подписаться</span>
+       <button class="subscribe-button" type="submit">
+         <span class="subscribe-button">Подписаться</span>
        </button>
      </form>
    </section>
