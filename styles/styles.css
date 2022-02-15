@@ -83,10 +83,6 @@ body {
     margin: 0 auto;
 }
 
-.main-index {
-    text-align: center;
-}
-
 .block-welcome-sedona {
     color: #000000;
     background-color: #ffffff;
@@ -95,6 +91,10 @@ body {
     background-repeat: no-repeat;
     padding-top: 46px;
     padding-bottom: 82px;
+}
+
+.block-welcome-description {
+    text-align: center;
 }
 
 .logo-welcome {
@@ -118,18 +118,21 @@ body {
 
 .advantages-list {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
+    height: 384px;
     color: #ffffff;
     background-color: #83B3D3;;
 }
 
 .advantages-title {
-    display: block;
-    width: 400px;
+    padding: 0;
+    width: 180px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -140,35 +143,45 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    width: 220px;
+    margin: 0 90px;
+    margin-bottom: 26px;
 }
 
 .advantages-minor-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 384px;
     margin: 0;
     padding: 0;
-    text-align: center;
     color: #333333;
 }
 
-.photo-city { 
-    width: 800px;
-}
-
 .minor-title {
-    display: block;
-    width: 400px;
+    text-align: center;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
 }
 
+.adantages-minor-item {
+    padding-top: 184px;
+}
+
 .minor-description {
+    width: 180px;
+    margin: 0 110px;
+    display: block;
+    margin-bottom: 26px;
+    text-align: center;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}
+
+.minor-description:nth-child(3) {
+    width: 240px;
+    margin: 0 80px;
 }
 
 .photo-canyon {
@@ -345,6 +358,7 @@ body {
 }
 
 .search-title {
+    margin: 91px auto 15px auto;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -359,6 +373,11 @@ body {
 }
 
 .button-search {
+    display: block;
+    width: 575px;
+    border-radius:10px;
+    padding: 15px 0;
+    margin: 71px auto 93px auto;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
@@ -375,12 +394,23 @@ body {
 }
 
 .subscribe-main {
+    margin: auto;
+    width: 1200px;
     text-align: center;
     color: #ffffff;
     background-color: #000000;
     background-image: url("../images/background-subscribe.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.field {
+    border: none;
+    width: 575px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px 0;
+    margin: 26px auto;
 }
 
 .subscribe-title {
@@ -397,14 +427,34 @@ body {
 }
 
 .subscribe-button {
+    border: none;
+    width: 200px;
+    padding: 10px 0;
+    margin: 26px auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     text-transform: uppercase;
+    color: #F2F2F2;
     background-color: #83B3D3;
 }
 
+.page-footer-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-social {
+    width: 170px;
+    margin-right: 61px;
+    margin-left: 72px;
+}
+
 .footer-contacts {
+    width: 720px;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -414,4 +464,10 @@ body {
 
 .footer-social-link {
     text-decoration: none;
+}
+
+.footer-logo {
+    margin-left: auto;
+    margin-right: 72px;
+    width: 115px;
 }
