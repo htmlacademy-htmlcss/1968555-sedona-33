@@ -117,6 +117,8 @@ body {
 
 .advantages-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -125,7 +127,6 @@ body {
 }
 
 .advantages-title {
-    display: flex;
     width: 400px;
     font-weight: 700;
     font-size: 24px;
@@ -141,6 +142,8 @@ body {
 
 .advantages-minor-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -152,7 +155,6 @@ body {
 }
 
 .minor-title {
-    display: flex;
     width: 400px;
     font-weight: 700;
     font-size: 24px;
