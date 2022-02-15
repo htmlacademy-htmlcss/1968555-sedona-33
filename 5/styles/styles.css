@@ -93,11 +93,13 @@ body {
     background-image: url("../images/background-welcome.jpg");
     background-size: auto;
     background-repeat: no-repeat;
+    padding-top: 46px;
+    padding-bottom: 82px;
 }
 
 .logo-welcome {
     display: block;
-    margin: 46px auto 82px auto;
+    margin: 0 auto;
 }
 
 .welcome-title {
