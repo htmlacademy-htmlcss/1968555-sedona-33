@@ -116,7 +116,7 @@ body {
 }
 
 .advantages-list {
-    display: flex;
+    display: inline-block;
     margin: 0;
     padding: 0 40px;
     color: #ffffff;
@@ -138,7 +138,7 @@ body {
 }
 
 .advantages-minor-list {
-    display: flex;
+    display: inline-block;
     margin: 0;
     padding: 0 40px;
     color: #333333;
