@@ -35,6 +35,27 @@ body {
     background-color: #ffffff;
 }
 
+.navigation {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.navigation-logo {
+    width: 139px;
+    margin: 0 auto;
+}
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 345px;
+}
+
+.navigation-user {
+    max-width: 264px;
+    margin-left: auto;
+}
+
 .navigation-link {
     font-size: 20px;
     line-height: 26px;
@@ -57,6 +78,11 @@ body {
     flex-grow: 1;
 }
 
+.main-index-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .main-index {
     text-align: center;
 }
@@ -67,6 +93,11 @@ body {
     background-image: url("../images/background-welcome.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.logo-welcome {
+    display: block;
+    margin: 0 auto;
 }
 
 .welcome-title {
@@ -84,6 +115,9 @@ body {
 }
 
 .advantages-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
     color: #ffffff;
     background-color: #83B3D3;;
 }
@@ -102,6 +136,9 @@ body {
 }
 
 .advantages-minor-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
     color: #333333;
 }
 
