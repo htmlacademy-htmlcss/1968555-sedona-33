@@ -118,7 +118,8 @@ body {
 .advantages-list {
     display: flex;
     margin: 0;
-    padding: 0 40px;
+    padding: 0;
+    text-align: center;
     color: #ffffff;
     background-color: #83B3D3;;
 }
@@ -127,7 +128,6 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -140,7 +140,8 @@ body {
 .advantages-minor-list {
     display: flex;
     margin: 0;
-    padding: 0 40px;
+    padding: 0;
+    text-align: center;
     color: #333333;
 }
 
@@ -148,7 +149,6 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     text-transform: uppercase;
 }
 
