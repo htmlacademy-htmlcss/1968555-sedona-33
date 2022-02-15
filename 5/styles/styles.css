@@ -118,16 +118,17 @@ body {
 .advantages-list {
     display: flex;
     margin: 0;
-    padding: 0 40px;
+    padding: 0;
+    text-align: center;
     color: #ffffff;
     background-color: #83B3D3;;
 }
 
 .advantages-title {
+    width: 400px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -140,15 +141,20 @@ body {
 .advantages-minor-list {
     display: flex;
     margin: 0;
-    padding: 0 40px;
+    padding: 0;
+    text-align: center;
     color: #333333;
 }
 
+.photo-city { 
+    width: 800px;
+}
+
 .minor-title {
+    width: 400px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -156,6 +162,10 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}
+
+.photo-canyon {
+    width: 800px;
 }
 
 .inner-header {
