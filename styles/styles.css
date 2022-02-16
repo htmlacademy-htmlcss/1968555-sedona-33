@@ -42,8 +42,9 @@ body {
 }
 
 .navigation-logo {
-    width: 139px;
-    margin: 0 auto;
+    margin: 0;
+    margin-left: 70px;
+    margin-right: 30px;
 }
 .navigation-list {
     margin: 0;
@@ -52,6 +53,8 @@ body {
 }
 
 .navigation-user {
+    margin: 0;
+    padding: 0;
     max-width: 264px;
     margin-left: auto;
 }
@@ -79,6 +82,11 @@ body {
 }
 
 .main-index-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-inner-container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -194,6 +202,7 @@ body {
     background-image: url("../images/background-catalog.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+    padding-top: 46px;
 }
 
 .inner-header-title {
@@ -218,6 +227,11 @@ body {
 .crumbs-link {
     text-decoration: none;
 }
+
+.product-list-column {
+    width: 1056px;
+}
+
 .catalog-products {
     font-weight: 400;
     font-size: 18px;
@@ -253,6 +267,11 @@ body {
     background-color: #ffffff;
     color: #000000;
     text-transform: uppercase;
+}
+
+.product-list-title {
+    width: 1200px;
+    margin: o auto;
 }
 
 .product-card-link {
@@ -308,6 +327,12 @@ body {
 }
 
 .download-more-button {
+    display: block;
+    width: 575px;
+    border-radius:10px;
+    padding: 15px 0;
+    margin: 0 auto;
+    margin-left: 290px;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
