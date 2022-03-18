@@ -30,6 +30,11 @@ body {
     background-color: #ffffff;
 }
 
+.shadow-container {
+    margin: auto;
+    box-shadow: 0 0 20px #7e7e7e;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -170,6 +175,12 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    margin-left: 110px;
+}
+
+.advantages-title-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .advantages-description {
@@ -198,6 +209,8 @@ body {
 }
 
 .adantages-minor-item {
+    display: flex;
+    flex-direction: column;
     padding-top: 184px;
 }
 
@@ -424,7 +437,7 @@ body {
     background-color: #ffffff;
     display: flex;
     list-style-type: none;
-    padding-left: 112px;
+    padding-left: 35px;
 }
 
 .pagination-item:not(:last-child) {
@@ -563,7 +576,7 @@ body {
     background-color: #ffffff;
     width: 800px;
     height: 241px;
-    margin: 0px 300px 140px 300px;
+    margin: 0px 300px 140px 230px;
 }
 
 .subscribe-main {
