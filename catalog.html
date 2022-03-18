@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+    <div class="shadow-container">
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
@@ -61,49 +62,51 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    Бассейн
                     <input class="control-input" type="checkbox" name="Бассейн" checked>
+                    Бассейн
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    Парковка
                     <input class="control-input" type="checkbox" name="Парковка" checked>
+                    Парковка
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    Wi-Fi
                     <input class="control-input" type="checkbox" name="Wi-Fi">
+                    Wi-Fi
                   </label>
                 </li>
               </ul>
            </fieldset>
-          <fieldset class="catalog-filer-group">
+          <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  Гостиница
                   <input class="control-input" type="radio" name="product-group" value="Гостиница" checked>
+                  Гостиница
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  Мотель
                   <input class="control-input" type="radio" name="product-group" value="Мотель">
+                  Мотель
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  Апартаменты
                   <input class="control-input" type="radio" name="product-group" value="Апартаменты">
+                  Апартаменты
                 </label>
               </li>
             </ul>
           </fieldset>
+          <div class="button-catalog">
           <button class="button-submit" type="submit">Применить</button>
           <button class="button-reset" type="reset">Сбросить</button>
+          </div>
         </form>
         </section>
       </header>
@@ -170,9 +173,7 @@
           <a class="download-more-button" href="#">Загрузить ещё</a>
         </section>
       </div>
-    </div>
     </section>
-    </main>
       <nav class="page-navigation">
         <ul class="pagination">
            <li class="pagination-item">
@@ -195,9 +196,9 @@
             </li>                                     
          </ul>
          <div class="result-search-numbers">
-            <h2 class="result-search-item">Гостиниц на странице:</h2>
+            <h2 class="result-search-item-pagination">Гостиниц на странице:</h2>
          </div>
-         <select class="select-control" aria-label="Результат">
+         <select class="select-control-pagination" aria-label="Результат">
             <option value="cheap">4</option>
             <option value="cheap">3</option>
             <option value="cheap">2</option>
@@ -205,9 +206,9 @@
          </select>
       </nav>
       <section class="subscribe-catalog">
-        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <h2 class="subscribe-title-catalog">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-        <form class="subscribe-form" action="#" method="post">
+        <form class="subscribe-form-catalog" action="#" method="post">
          <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
           <button class="subscribe-button" type="submit">
             <span class="subscribe-button">Подписаться</span>
@@ -246,5 +247,8 @@
             </section>
           </div>
         </footer>
+      </div>
+      </main>
+    </div>
     </body>
 </html>
