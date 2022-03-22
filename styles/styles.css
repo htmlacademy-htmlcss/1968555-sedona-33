@@ -71,7 +71,7 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0%;
+    right: 0;
     margin: auto;
 }
 
@@ -113,6 +113,27 @@ body {
     text-align: center;
     color: inherit;
     text-decoration: none;
+}
+
+.navigation-link:hover {
+    color: #756257;
+}
+
+.navigation-link:active {
+    color: rgba(117, 98, 87, 0.3);
+}
+
+.navigation-button svg:hover {
+    fill: #756257;
+}
+
+.navigation-button:active svg {
+    fill: rgba(117, 98, 87, 0.3);
+}
+
+.button-here:focus {
+    box-shadow: inset 0 0 0 4px #83B3D3;
+    outline: none;
 }
 
 .navigation-link-active {
@@ -269,7 +290,7 @@ body {
     top: 0;
     bottom: 132px;
     left: 0;
-    right: 0%;
+    right: 0;
     margin: auto;
 }
 
@@ -278,7 +299,7 @@ body {
     top: 0;
     bottom: 132px;
     left: 0;
-    right: 0%;
+    right: 0;
     margin: auto;
 }
 
@@ -329,6 +350,7 @@ body {
 }
 
 .button-light {
+    position: relative;
     text-decoration: none;
     color: #000000;
 }
@@ -345,7 +367,27 @@ body {
 }
 
 .crumbs-link {
+    position: relative;
     text-decoration: none;
+}
+
+.crumbs-home {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: -70px;
+    right: 0;
+    margin: auto;
+}
+
+.crumbs-vector {
+    position: absolute;
+    top: 22px;
+    bottom: 0;
+    left: -25px;
+    right: 0;
+    margin: auto;
+    opacity: 0.3;
 }
 
 .product-list-column {
@@ -583,6 +625,10 @@ body {
 
 .download-more {
     text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 30px;
+    border-color: #E6E6E6;
 }
 
 .download-more-button {
@@ -683,7 +729,45 @@ body {
     border: 2px solid #e6e6e6;
     border-radius: 4px;
     padding-left: 10px;
-    margin: 44px 81px 53px 192px;
+    margin: 44px 70px 53px 160px;
+}
+
+.tile-icon {
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: -20px;
+    right: 0;
+    margin: auto;
+    padding: 17px 16px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.slideshow-icon {
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    margin: auto;
+    padding: 17px 16px;
+    border: 2px solid;
+    border-color: #E6E6E6;
+    border-radius: 4px;
+}
+
+.list-icon {
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    margin: auto;
+    padding: 17px 16px;
+    border: 2px solid;
+    border-color: #E6E6E6;
+    border-radius: 4px;
 }
 
 .select-control-pagination {
