@@ -818,9 +818,34 @@ body {
     text-decoration: none;
 }
 
+.button-search:hover {
+    background-color: #615048;
+}
+
+.button-search:focus {
+    box-shadow: inset 0 0 0 3px #83B3D3;
+    outline: none;
+}
+
+.button-search:active {
+    color: rgba(0, 0, 0, 0.25);
+}
+
 .subscribe-form {
     display: flex;
     margin-left: 200px;
+}
+
+.field:hover {
+    background-color: #E6E6E6;
+}
+
+.field:focus {
+    outline: 3px solid #83B3D3;
+}
+
+input:invalid:not(:placeholder-shown) {
+    outline: 2px solid #FF5757;
 }
 
 .subscribe-form-catalog {
@@ -880,6 +905,18 @@ body {
     line-height: 26px;
     margin: 0;
     padding-bottom: 24px;
+}
+
+.subscribe-button:hover {
+    background-color: #68A2CA;
+}
+
+.subscribe-button:focus {
+    outline: 3px solid #756257;
+}
+
+.subscribe-button:active {
+    color: rgba(255, 255, 255, 0.3)
 }
 
 .subscribe-button {
@@ -953,6 +990,25 @@ body {
 .footer-social-link {
     position: relative;
     text-decoration: none;
+}
+
+.footer-social-link svg:hover {
+    fill: #68A2CA;
+}
+
+.footer-social-link:focus {
+    border: 3px solid #83B3D3;
+    outline: none;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.navigation-link:active {
+    color: rgba(117, 98, 87, 0.3);
+}
+
+.navigation-button:active svg {
+    fill: rgba(117, 98, 87, 0.3);
 }
 
 .footer-logo {
